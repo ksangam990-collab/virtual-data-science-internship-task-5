@@ -1,0 +1,74 @@
+{
+    "cohort_stats": {
+        "total_customers": 7043,
+        "churn_count": 1869,
+        "churn_rate": 0.2653698707936959,
+        "monthly_churn_loss": 139130.85,
+        "annual_churn_loss": 1669570.2000000002
+    },
+    "model_results": {
+        "Logistic Regression": {
+            "cv_accuracy_mean": 0.8024509023626439,
+            "cv_accuracy_std": 0.011808889685075192,
+            "cv_roc_mean": 0.8462249912870853,
+            "cv_roc_std": 0.012621438000146467,
+            "test_accuracy": 0.8069552874378992,
+            "test_precision": 0.6583850931677019,
+            "test_recall": 0.5668449197860963,
+            "test_f1": 0.6091954022988506,
+            "test_roc_auc": 0.841778397788628,
+            "confusion_matrix": [
+                [
+                    925,
+                    110
+                ],
+                [
+                    162,
+                    212
+                ]
+            ]
+        },
+        "Random Forest": {
+            "cv_accuracy_mean": 0.801741368413919,
+            "cv_accuracy_std": 0.010473138471305163,
+            "cv_roc_mean": 0.8452239726589816,
+            "cv_roc_std": 0.010712784477067094,
+            "test_accuracy": 0.8062455642299503,
+            "test_precision": 0.6810035842293907,
+            "test_recall": 0.5080213903743316,
+            "test_f1": 0.5819295558958653,
+            "test_roc_auc": 0.8446252809424165,
+            "confusion_matrix": [
+                [
+                    946,
+                    89
+                ],
+                [
+                    184,
+                    190
+                ]
+            ]
+        },
+        "Gradient Boosting": {
+            "cv_accuracy_mean": 0.8012089815461284,
+            "cv_accuracy_std": 0.010537405134304791,
+            "cv_roc_mean": 0.8462716617208335,
+            "cv_roc_std": 0.011124864998780128,
+            "test_accuracy": 0.8026969481902059,
+            "test_precision": 0.6589403973509934,
+            "test_recall": 0.5320855614973262,
+            "test_f1": 0.5887573964497042,
+            "test_roc_auc": 0.8433633005244259,
+            "confusion_matrix": [
+                [
+                    932,
+                    103
+                ],
+                [
+                    175,
+                    199
+                ]
+            ]
+        }
+    }
+}
